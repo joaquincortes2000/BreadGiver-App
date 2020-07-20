@@ -1,0 +1,69 @@
+﻿@page "/registro"
+
+<h3 class="text-center font-weight-bold" style="font-family:Arial;">Formulario de registro</h3>
+
+<div class="form-row">
+    <div class="col">
+
+    </div>
+    <div class="col-md-6">
+        <!--Inicio Form-->
+        <form action="" onsubmit="">
+            <div class="row form-group">
+                <div class="col">
+                    <p class="text-center">Nombre</p>
+                    <input class="form-control" type="text" placeholder="Ingresa tu nombre" required/>
+                </div>
+                <div class="col">
+                    <p class="text-center">Apellido</p>
+                    <input class="form-control" type="text" placeholder="Ingresa tu apellido" required />
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col">
+                    <p class="text-center">Dirección</p>
+                    <input class="form-control" type="text" name="direccion" placeholder="Ingresa tu dirección"  required/>
+                </div>
+                <div class="col">
+                    <p class="text-center">Ingresa tu RUT</p>
+                    <input class="form-control" type="text" name="rut" placeholder="Ingresa tu rut" required/>
+                </div>
+            </div>
+            <div class="form-group">
+                <p class="text-center">Correo</p>
+                <input class="form-control" type="email" placeholder="Ingresa tu correo" required/>
+            </div>
+            <div class="form-group">
+                <p class="text-center">Contraseña</p>
+                    <input class="form-control" type="password" placeholder="Escribe tu contraseña" required/>
+            </div>
+            <div class="form-group">
+                <p class="text-center">Confirmar contraseña</p>
+                    <input class="form-control" type="password" placeholder="Confirma tu contraseña" required/>
+            </div>
+            <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="terminos" required>
+                <label class="custom-control-label" for="customControlValidation1"><a href="#" style="color: blue;">Terminos y condiciones</a></label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary w-100">Continuar</button>
+            </div>
+        
+        
+        </form>
+        <!--Fin form-->
+    </div>
+    <div class="col">
+
+    </div>
+</div>
+
+
+@code {
+    private Usuario usuario = new Usuario();
+
+   
+
+
+}

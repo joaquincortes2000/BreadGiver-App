@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<h1 class="text-center font-weight-bold">Bienvenido a BreadGiver</h1>
+
+
+<!--<SurveyPrompt Title="How is Blazor working for you?" />-->
+
+<h3 class="font-weight-bold">Productos mas vendidos</h3>
+<div class="card-group">
+    @for (int i = 0; i < 4; i++)
+    {
+        <CardProduct></CardProduct>
+    }
+</div>
+<hr />
+<h3 class="font-weight-bold">Productos con descuentos</h3>
+<div class="card-group">
+    @for (int i = 0; i < 4; i++)
+    {
+        <CardProduct></CardProduct>
+    }
+</div>

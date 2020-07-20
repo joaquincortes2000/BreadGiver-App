@@ -1,0 +1,9 @@
+C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Shared\bin\Debug\netstandard2.1\BreadGiverApp.Shared.deps.json
+C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Shared\bin\Debug\netstandard2.1\BreadGiverApp.Shared.dll
+C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Shared\bin\Debug\netstandard2.1\BreadGiverApp.Shared.pdb
+C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Shared\obj\Debug\netstandard2.1\BreadGiverApp.Shared.csprojAssemblyReference.cache
+C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Shared\obj\Debug\netstandard2.1\BreadGiverApp.Shared.AssemblyInfoInputs.cache
+C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Shared\obj\Debug\netstandard2.1\BreadGiverApp.Shared.AssemblyInfo.cs
+C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Shared\obj\Debug\netstandard2.1\BreadGiverApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Shared\obj\Debug\netstandard2.1\BreadGiverApp.Shared.dll
+C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Shared\obj\Debug\netstandard2.1\BreadGiverApp.Shared.pdb
