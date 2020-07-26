@@ -2,9 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BreadGiverApp.Server
 {
@@ -15,22 +12,18 @@ namespace BreadGiverApp.Server
 
         }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
         public DbSet<CarroCompra> CarroCompra { get; set; }
-        public DbSet<Cotizacion> Cotizaciones { get; set; }
+        public DbSet<Cotizacion> Cotizacion { get; set; }
         public DbSet<Rol> Rol { get; set; }
         public DbSet<MetodoPago> MetodoPago { get; set; }
-        public DbSet<Producto> Productos { get; set;  }
-
-        public static implicit operator ControllerContext(ApplicationDbContext v)
-        {
-            throw new NotImplementedException();
-        }
+        public DbSet<Producto> Producto { get; set; }
+        public DbSet<CarroCompra_has_Producto> CarroCompra_Has_Producto { get; set; }
+        public DbSet<Cotizacion_has_Producto> Cotizacion_Has_Producto { get; set; }
     }
 }

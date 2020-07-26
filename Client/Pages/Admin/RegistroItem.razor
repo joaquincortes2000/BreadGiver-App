@@ -1,4 +1,5 @@
 ﻿@page "/registroItem"
+@inject IRepositorio repositorio;
 
 <h3 class="text-center font-weight-bold" style="font-family:Arial;">Fromulario de Item</h3>
 
@@ -8,27 +9,22 @@
     </div>
     <div class="col-md-6">
         <!--Inicio Form-->
-        <form action="" onsubmit="">
-            <div class="row form-group">
+        <EditForm Model="@producto">
                 <div class="col">
                     <p class="text-center">Producto</p>
-                    <input class="form-control" type="text" placeholder="Ingresa el producto" required />
+                    <input type="hidden" @bind-value="@producto.Id" />
+                    <input class="form-control" type="text" placeholder="Ingresa el producto" required @bind-value="@producto.NombreProducto" />
                 </div>
                 <div class="col">
                     <p class="text-center">Precio por unidad</p>
-                    <input class="form-control" type="text" placeholder="Ingresa el precio unitario" required />
+                    <input class="form-control" type="text" placeholder="Ingresa el precio unitario" required @bind-value="@producto.PrecioProducto" />
                 </div>
-            </div>
-            <div class="form-group">
-                <p class="text-center">Total de productos</p>
-                <input class="form-control" type="number" placeholder="Ingresa la cantidad total" required />
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary w-100">Continuar</button>
-            </div>
-
-
-        </form>
+                <div class="form-group">
+                    <p class="text-center">Total de productos</p>
+                    <input class="form-control" type="number" placeholder="Ingresa la cantidad total" required @bind-value="@producto.PrecioProducto" />
+                </div>
+                <button type="submit" class="btn btn-primary w-100" @onclick="(()=> initializeObject())">Continuar</button>
+        </EditForm>
         <!--Fin form-->
     </div>
     <div class="col">
@@ -38,7 +34,24 @@
 
 
 @code {
-    
+
+    private Producto producto = new Producto();
+
+    private void initializeObject()
+    {
+        producto = new Producto();
+    }
+
+    private async Task Crear()
+    {
+        var httpResponse = await repositorio.Post("api/producto", producto);
+        if(httpResponse.Error)
+        {
+            var body = await httpResponse.HttpResponseMessage.Content.ReadAsStringAsync();
+            Console.WriteLine(body);
+        }
+
+    }
 
 
 }

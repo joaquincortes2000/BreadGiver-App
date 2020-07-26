@@ -1,9 +1,7 @@
 ﻿using BreadGiverApp.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace BreadGiverApp.Server.Controllers
@@ -20,7 +18,7 @@ namespace BreadGiverApp.Server.Controllers
 
         public async Task<ActionResult<List<Usuario>>> Get()
         {
-            return await context.Usuarios.ToListAsync();
+            return await context.Usuario.ToListAsync();
         }
     }
 }

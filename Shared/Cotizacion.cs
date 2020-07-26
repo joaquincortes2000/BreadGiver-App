@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BreadGiverApp.Shared
+﻿namespace BreadGiverApp.Shared
 {
     public class Cotizacion
     {

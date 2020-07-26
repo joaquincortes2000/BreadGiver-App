@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[3.2.0, )"
             },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Build": {
               "suppressParent": "All",
               "target": "Package",
@@ -125,6 +129,10 @@
               "target": "Package",
               "version": "[3.3.107.24, )"
             },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[3.2.0, )"
@@ -195,6 +203,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

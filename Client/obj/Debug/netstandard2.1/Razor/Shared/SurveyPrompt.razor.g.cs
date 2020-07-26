@@ -8,7 +8,6 @@ namespace BreadGiverApp.Client.Shared
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Components;
 #nullable restore
 #line 1 "C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Client\_Imports.razor"
 using System.Net.Http;
@@ -68,6 +67,34 @@ using BreadGiverApp.Client;
 #nullable restore
 #line 9 "C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Client\_Imports.razor"
 using BreadGiverApp.Client.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Client\_Imports.razor"
+using BreadGiverApp.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Client\_Imports.razor"
+using Microsoft.AspNetCore.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Client\_Imports.razor"
+using Repositorios;
 
 #line default
 #line hidden
