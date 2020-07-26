@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MepQlZErDR+F4cWS99joRLWUKUWeE06v7HRMSz4Kxin01s84w0P8DFlfjVKJwmmMkh4RThzYBkPcWHZqn/3cnQ==",
+  "dgSpecHash": "UH2ZiXK6XpRAyJME5tkssNAs0o1/bC62zSZgZGAulw2YMKgzwxxpqQMnnmhD7BpmKC5BO2Mpzhic1th+1cH4WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Client\\BreadGiverApp.Client.csproj",
+  "projectFilePath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\BreadGiverApp.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaqu\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\joaqu\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",

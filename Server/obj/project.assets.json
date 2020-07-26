@@ -5724,11 +5724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Server\\BreadGiverApp.Server.csproj",
+      "projectUniqueName": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Server\\BreadGiverApp.Server.csproj",
       "projectName": "BreadGiverApp.Server",
-      "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Server\\BreadGiverApp.Server.csproj",
+      "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Server\\BreadGiverApp.Server.csproj",
       "packagesPath": "C:\\Users\\joaqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Server\\obj\\",
+      "outputPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5744,11 +5744,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Client\\BreadGiverApp.Client.csproj": {
-              "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Client\\BreadGiverApp.Client.csproj"
+            "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\BreadGiverApp.Client.csproj": {
+              "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\BreadGiverApp.Client.csproj"
             },
-            "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Shared\\BreadGiverApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Shared\\BreadGiverApp.Shared.csproj"
+            "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Shared\\BreadGiverApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Shared\\BreadGiverApp.Shared.csproj"
             }
           }
         }

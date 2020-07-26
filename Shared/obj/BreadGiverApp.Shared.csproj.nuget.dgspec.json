@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Shared\\BreadGiverApp.Shared.csproj": {}
+    "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Shared\\BreadGiverApp.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Shared\\BreadGiverApp.Shared.csproj": {
+    "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Shared\\BreadGiverApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Shared\\BreadGiverApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Shared\\BreadGiverApp.Shared.csproj",
         "projectName": "BreadGiverApp.Shared",
-        "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Shared\\BreadGiverApp.Shared.csproj",
+        "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Shared\\BreadGiverApp.Shared.csproj",
         "packagesPath": "C:\\Users\\joaqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",

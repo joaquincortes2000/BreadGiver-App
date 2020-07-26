@@ -1556,11 +1556,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Client\\BreadGiverApp.Client.csproj",
+      "projectUniqueName": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\BreadGiverApp.Client.csproj",
       "projectName": "BreadGiverApp.Client",
-      "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Client\\BreadGiverApp.Client.csproj",
+      "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\BreadGiverApp.Client.csproj",
       "packagesPath": "C:\\Users\\joaqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Client\\obj\\",
+      "outputPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1576,8 +1576,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Shared\\BreadGiverApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiverApp\\Shared\\BreadGiverApp.Shared.csproj"
+            "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Shared\\BreadGiverApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Shared\\BreadGiverApp.Shared.csproj"
             }
           }
         }
