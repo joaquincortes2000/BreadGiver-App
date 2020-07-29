@@ -1,22 +1,35 @@
 ﻿@page "/"
+@inject IRepositorio repositorio;
+@inject HttpClient Http
 
 <h1 class="text-center font-weight-bold">Bienvenido a BreadGiver</h1>
 
 
 <!--<SurveyPrompt Title="How is Blazor working for you?" />-->
 
-<h3 class="font-weight-bold">Productos mas vendidos</h3>
-<div class="card-group">
-    @for (int i = 0; i < 4; i++)
-    {
-        <CardProduct></CardProduct>
-    }
-</div>
-<hr />
-<h3 class="font-weight-bold">Productos con descuentos</h3>
-<div class="card-group">
-    @for (int i = 0; i < 4; i++)
-    {
-        <CardProduct></CardProduct>
-    }
-</div>
+<h3 class="font-weight-bold text-center">Nuestros productos</h3>
+
+    <div class="card-columns">
+
+        @foreach (var item in todoItems ?? new List<Producto>())
+        {
+            <div class="col mb-4">
+                <CardProduct Nombre="@item.NombreProducto" Precio="@item.PrecioProducto" Cantidad="@item.CantidadProducto"></CardProduct>
+            </div>
+        }
+    </div>
+
+   
+
+@code
+{
+
+    
+    //private List<Producto> listaProducto;
+
+
+    private List<Producto> todoItems;
+
+    protected override async Task OnInitializedAsync() =>
+    todoItems = await Http.GetFromJsonAsync<List<Producto>>("producto/obtenerTodos");
+}

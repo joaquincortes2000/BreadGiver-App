@@ -50,13 +50,6 @@
         {
             var body = await httpResponse.HttpResponseMessage.Content.ReadAsStringAsync();
             Console.WriteLine(body);
-            Console.WriteLine("Http code: 400");
-        }
-        else
-        {
-            var body = await httpResponse.HttpResponseMessage.Content.ReadAsStringAsync();
-            Console.WriteLine(body);
-            Console.WriteLine("Http code: 200");
         }
 
     }

@@ -1,38 +1,45 @@
 ﻿@page "/Inventario"
 @inject IRepositorio repositorio;
+@inject HttpClient Http
 <h1 class="font-weight-bolder">Control de inventario</h1>
 
 
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Producto</th>
-                <th>Cantidad</th>
-                <th>Precio</th>
-                <th>Imagen</th>
-                <th>Opciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td><a href="/registroItem" style="color: blue;">Actualizar Item</a></td>
-            </tr>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in todoItems ?? new List<Producto>())
+        {
+        <tr>
+            <td hidden>@item.Id</td>
+            <td>@item.NombreProducto</td>
+            <td>@item.CantidadProducto</td>
+            <td>@item.PrecioProducto</td>
+            <td><a href="/registroItem" style="color: blue;">Actualizar Item</a></td>
+        </tr>
+                }
+           
         </tbody>
-    </table>
+</table>
 
 
 @code {
 
-    private List<Producto> listaProducto;
+    //private List<Producto> listaProducto;
 
 
+    private List<Producto> todoItems;
 
+    protected override async Task OnInitializedAsync() =>
+    todoItems = await Http.GetFromJsonAsync<List<Producto>>("producto/obtenerTodos");
 
-   
 
 }

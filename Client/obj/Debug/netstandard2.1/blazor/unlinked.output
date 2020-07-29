@@ -28,6 +28,7 @@ obj\Debug\netstandard2.1\blazor\unlinked\System.Data.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Threading.Tasks.Extensions.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Numerics.Vectors.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Text.Encodings.Web.dll
+obj\Debug\netstandard2.1\blazor\unlinked\System.Net.Http.Json.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.AspNetCore.Authorization.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.Options.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.Primitives.dll

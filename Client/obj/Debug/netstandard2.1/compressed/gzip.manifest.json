@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wFd9y7mWwxQF32_628Cqityw2I-bbaUx3CkBiapEVdA=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\90Djh6JRAmiMo5ly0SVORfRUJVgy3_6OOm5_uUacPEY=.hash",
       "Source": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BreadGiverApp.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BreadGiverApp.Client.dll.gz"
     },
@@ -151,6 +151,11 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.gz"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash",
+      "Source": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Net.Http.Json.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.gz"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4NUQ26HmvXRi8smc0jz9940OUECDLQnoMWQLrMLe0ok=.hash",
       "Source": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Authorization.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Authorization.dll.gz"
@@ -276,7 +281,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\JNdcWNZqF_cQm9_4Giy3_vq930KKyJ9F3Dqctxj8Noo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\e5AQDy5ys9eEzY6GryrMyxuvOu0psCmMkkBH-BUe0Rk=.hash",
       "Source": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BreadGiverApp.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BreadGiverApp.Client.pdb.gz"
     },
@@ -306,7 +311,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tLkFoA2tkOS9tqNxIIJjfupZEYYxbvgiN-DFMI3KGAM=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\z0UH-iSFusbokI2MdbRRF7QaviQU6E_js2YsnnNAto0=.hash",
       "Source": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }
