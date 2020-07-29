@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BreadGiverApp.Server.Controllers
 {
     [ApiController]
-    [Route("api/controller")]
+    [Route("producto")]
     public class ProductoController : ControllerBase
     {
         private readonly ApplicationDbContext context;
@@ -15,11 +15,14 @@ namespace BreadGiverApp.Server.Controllers
         {
             this.context = context;
         }
+
+        [Route("obtenerTodos")]
         public async Task<ActionResult<List<Producto>>> Get()
         {
             return await context.Producto.ToListAsync();
         }
 
+        [Route("registrar")]
         public async Task<ActionResult<int>> Post(Producto producto)
         {
             context.Add(producto);

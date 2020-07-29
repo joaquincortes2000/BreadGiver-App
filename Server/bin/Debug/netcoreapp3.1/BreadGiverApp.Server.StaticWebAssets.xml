@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Client\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\joaqu\Documents\GitHub\BreadGiverApp\Client\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\bin\Debug\netstandard2.1\wwwroot\" />
   <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\joaqu\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\3.2.1\build\..\staticwebassets\" />
 </StaticWebAssets>
