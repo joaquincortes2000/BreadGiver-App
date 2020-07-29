@@ -9,22 +9,22 @@
 
 <h3 class="font-weight-bold text-center">Nuestros productos</h3>
 
-    <div class="card-columns">
+<div class="card-columns">
 
-        @foreach (var item in todoItems ?? new List<Producto>())
-        {
-            <div class="col mb-4">
-                <CardProduct Nombre="@item.NombreProducto" Precio="@item.PrecioProducto" Cantidad="@item.CantidadProducto"></CardProduct>
-            </div>
-        }
-    </div>
+    @foreach (var item in todoItems ?? new List<Producto>())
+    {
+        <div class="col mb-4 shadow">
+            <CardProduct Nombre="@item.NombreProducto" Precio="@item.PrecioProducto" Cantidad="@item.CantidadProducto"></CardProduct>
+        </div>
+    }
+</div>
 
-   
+
 
 @code
 {
 
-    
+
     //private List<Producto> listaProducto;
 
 

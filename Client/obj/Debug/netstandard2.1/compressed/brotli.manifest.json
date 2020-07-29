@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\90Djh6JRAmiMo5ly0SVORfRUJVgy3_6OOm5_uUacPEY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\DS-e_1Xc6BgRFGyYuncPF9PCYccvy6bAwK6w_qKJheQ=.hash",
       "Source": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BreadGiverApp.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BreadGiverApp.Client.dll.br"
     },
@@ -281,7 +281,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\e5AQDy5ys9eEzY6GryrMyxuvOu0psCmMkkBH-BUe0Rk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4Z4-Qo_-CX8KhSqqqJSoDZZ2crdzKi03AF4SSV2M64Q=.hash",
       "Source": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BreadGiverApp.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BreadGiverApp.Client.pdb.br"
     },
@@ -311,7 +311,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\z0UH-iSFusbokI2MdbRRF7QaviQU6E_js2YsnnNAto0=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FgIUdOTXeEwa6Yf8RVPAHA_PeTaEeLy8To2dzasD3wY=.hash",
       "Source": "C:\\Users\\joaqu\\Documents\\GitHub\\BreadGiver-app\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "BreadGiverApp.Client.dll": "sha256-90Djh6JRAmiMo5ly0SVORfRUJVgy3+6OOm5+uUacPEY=",
+      "BreadGiverApp.Client.dll": "sha256-DS\/e+1Xc6BgRFGyYuncPF9PCYccvy6bAwK6w+qKJheQ=",
       "System.Text.Json.dll": "sha256-HQeN+ZfHAERO+uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-kL\/omZDwqByAi+lPdMeDmr3XjHcn4RVb+LmZ4mut1Yc=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -64,7 +64,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-dwm+rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs="
     },
     "pdb": {
-      "BreadGiverApp.Client.pdb": "sha256-e5AQDy5ys9eEzY6GryrMyxuvOu0psCmMkkBH\/BUe0Rk=",
+      "BreadGiverApp.Client.pdb": "sha256-4Z4\/Qo+\/CX8KhSqqqJSoDZZ2crdzKi03AF4SSV2M64Q=",
       "BreadGiverApp.Shared.pdb": "sha256-yBsNkuOS+KOueGcV0DJTg0cFVAbLcCJafMpQwzzJVo0="
     },
     "runtime": {
