@@ -43,16 +43,16 @@
 
     private List<Producto> todoItems;
 
+    private Producto producto = new Producto();
+
     protected override async Task OnInitializedAsync() =>
     todoItems = await Http.GetFromJsonAsync<List<Producto>>("producto/obtenerTodos");
 
-    private Producto producto = new Producto();
-
-    private void EditarProducto(int Id)
-    {
-        producto = todoItems.Single(i => i.Id == Id);
-
-    }
+        protected override void OnInitialized()
+        {
+            base.OnInitialized();
+            Console.WriteLine(Id);
+        }
 
 
 

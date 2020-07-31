@@ -792,10 +792,10 @@ C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\bin\Debug\netstandard2.1\w
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.br
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\6LaP5q_mMoDUMKoT1Dr0F4vb-0NFihWjtKBLtls6svY=.hash
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\bPivV2GtXmv99SHkLRqJs8YL2ixGdlahPp0DyOp9OFc=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Admin\ActualizarItem.razor.g.cs
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\Razor\Pages\Admin\ActualizarItem.razor.g.cs
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\P5aARXMAahcesPY9OQmnAp6-eIClE3bps1KLpQ6kHGQ=.hash
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\XppOtzUuDSqgrWxspyqTxPWToRPWj7z4GT_bp3zLS3U=.hash
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\pOViuEWOnyzhhVr8IIlAIMPjG7yK7QIYRn9mhf9cEEY=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\2mPDUmyQcsDUMiR2lVJuwJjN1teDs1N0qPMX7EPXNXU=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\ci-497Q_RkraUz1JnaOhGfVHSiXqbIHVCbCGb1XQni0=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\wRnoZoJyfjV-ZxVhsAI6I5Y2bmHYSszBHGGGaoF5KTc=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\gP73G9fW-1nFdB5Zl1nZwO80Fibx55WZFix7rjZBNZo=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\KZiu_fDJ4zPJyhQX2lCENH4APQFsmdDjF66T6yMPYHE=.hash

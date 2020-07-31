@@ -1,5 +1,8 @@
-﻿@page "/carroCompra"
-@page "/carroCompra/{Id:int}"
+﻿@page "/carroCompra/{Id:int}"
+@page "/carroCompra"
+@inject IRepositorio repositorio;
+@inject HttpClient Http
+
 <h3 class="font-weight-bold text-center">CarroCompra</h3>
 
 <table class="table">
@@ -22,5 +25,15 @@
 </table>
 
 @code {
+    [Parameter]
+    public int Id { get; set; }
+
+    Producto producto = new Producto();
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Console.WriteLine(Id);
+    }
 
 }
