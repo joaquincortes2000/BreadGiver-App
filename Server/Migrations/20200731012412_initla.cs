@@ -2,7 +2,7 @@
 
 namespace BreadGiverApp.Server.Migrations
 {
-    public partial class initMigration : Migration
+    public partial class initla : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -43,7 +43,8 @@ namespace BreadGiverApp.Server.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     NombreProducto = table.Column<string>(nullable: true),
                     PrecioProducto = table.Column<string>(nullable: true),
-                    CantidadProducto = table.Column<int>(nullable: false)
+                    CantidadProducto = table.Column<int>(nullable: false),
+                    ImagenProducto = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

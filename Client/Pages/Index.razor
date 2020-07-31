@@ -5,7 +5,6 @@
 <h1 class="text-center font-weight-bold">Bienvenido a BreadGiver</h1>
 
 
-<!--<SurveyPrompt Title="How is Blazor working for you?" />-->
 
 <h3 class="font-weight-bold text-center">Nuestros productos</h3>
 
@@ -14,7 +13,7 @@
     @foreach (var item in todoItems ?? new List<Producto>())
     {
         <div class="col mb-4 shadow">
-            <CardProduct Nombre="@item.NombreProducto" Precio="@item.PrecioProducto" Cantidad="@item.CantidadProducto"></CardProduct>
+            <CardProduct Imagen="@item.ImagenProducto" Nombre="@item.NombreProducto" Precio="@item.PrecioProducto" Cantidad="@item.CantidadProducto"></CardProduct>
         </div>
     }
 </div>
@@ -24,8 +23,6 @@
 @code
 {
 
-
-    //private List<Producto> listaProducto;
 
 
     private List<Producto> todoItems;

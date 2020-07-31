@@ -138,6 +138,9 @@ namespace BreadGiverApp.Server.Migrations
                     b.Property<int>("CantidadProducto")
                         .HasColumnType("int");
 
+                    b.Property<string>("ImagenProducto")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("NombreProducto")
                         .HasColumnType("nvarchar(max)");
 

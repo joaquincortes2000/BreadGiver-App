@@ -8,12 +8,15 @@
 
     </div>
     <div class="col-md-6">
-        <!--Inicio Form-->
-        <EditForm Model="@producto" >
+        <EditForm Model="@producto">
             <div class="col">
                 <p class="text-center">Producto</p>
                 <input type="hidden" @bind-value="@producto.Id" />
                 <input class="form-control" type="text" placeholder="Ingresa el producto" required @bind-value="@producto.NombreProducto" />
+            </div>
+            <div class="col">
+                <p class="text-center">Imagen referencial</p>
+                <input class="form-control" type="text" placeholder="Ingresa el link de la imagen" required @bind-value="@producto.ImagenProducto" />
             </div>
             <div class="col">
                 <p class="text-center">Precio por unidad</p>
@@ -25,11 +28,7 @@
             </div>
             <button type="submit" class="btn btn-primary w-100" @onclick="Crear">Continuar</button>
         </EditForm>
-        <!--Fin form-->
-        <form action="/" method="post">
-
-
-        </form>
+       
     </div>
     <div class="col">
 

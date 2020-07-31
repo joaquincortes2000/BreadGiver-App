@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BreadGiverApp.Server.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200726005005_initMigration")]
-    partial class initMigration
+    [Migration("20200731012412_initla")]
+    partial class initla
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -139,6 +139,9 @@ namespace BreadGiverApp.Server.Migrations
 
                     b.Property<int>("CantidadProducto")
                         .HasColumnType("int");
+
+                    b.Property<string>("ImagenProducto")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NombreProducto")
                         .HasColumnType("nvarchar(max)");

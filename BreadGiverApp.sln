@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadGiverApp.Server", "Server\BreadGiverApp.Server.csproj", "{EF73190B-2642-4C32-8A1F-A67B4813066F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadGiverApp.Server", "Server\BreadGiverApp.Server.csproj", "{EF73190B-2642-4C32-8A1F-A67B4813066F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadGiverApp.Client", "Client\BreadGiverApp.Client.csproj", "{25E50A31-87F7-45CA-A07A-B725A1155D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadGiverApp.Client", "Client\BreadGiverApp.Client.csproj", "{25E50A31-87F7-45CA-A07A-B725A1155D2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadGiverApp.Shared", "Shared\BreadGiverApp.Shared.csproj", "{D48CD1D6-0A32-4BF3-95CD-B6B34E250A4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadGiverApp.Shared", "Shared\BreadGiverApp.Shared.csproj", "{D48CD1D6-0A32-4BF3-95CD-B6B34E250A4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

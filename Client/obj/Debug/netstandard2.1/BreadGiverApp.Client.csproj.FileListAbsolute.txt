@@ -642,7 +642,6 @@ C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\i
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\5lY1KL-pA7kS-OYycrkrhkXJKFHJHVbdmUTyPYaqDiM=.hash
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\EUqMKXhmt1EZCKR6nqIX-E6sCW34-TkEiK-kcZm1ELA=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\sifIvl02zqfSiv67ZRAsSa_NCvhMgTGrIUNuK8LmCNM=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\oK1Bjv95fH_hSbogUkJE_xDAI203kJG6lL6Sm-NuPWg=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\iUTfpj7A29tIp2gl2fLM_w1MwyI8XMmUV8gFe_mJBZI=.hash
@@ -655,7 +654,6 @@ C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\i
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\zNP4aHLW-rhi6gW72YV8xGy1rLa_RQZtwvWEpiwBSrs=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\dwm_rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=.hash
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\yBsNkuOS_KOueGcV0DJTg0cFVAbLcCJafMpQwzzJVo0=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
@@ -794,6 +792,10 @@ C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\bin\Debug\netstandard2.1\w
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.br
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\DS-e_1Xc6BgRFGyYuncPF9PCYccvy6bAwK6w_qKJheQ=.hash
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\4Z4-Qo_-CX8KhSqqqJSoDZZ2crdzKi03AF4SSV2M64Q=.hash
-C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\FgIUdOTXeEwa6Yf8RVPAHA_PeTaEeLy8To2dzasD3wY=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\6LaP5q_mMoDUMKoT1Dr0F4vb-0NFihWjtKBLtls6svY=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\bPivV2GtXmv99SHkLRqJs8YL2ixGdlahPp0DyOp9OFc=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Admin\ActualizarItem.razor.g.cs
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\Razor\Pages\Admin\ActualizarItem.razor.g.cs
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\P5aARXMAahcesPY9OQmnAp6-eIClE3bps1KLpQ6kHGQ=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\XppOtzUuDSqgrWxspyqTxPWToRPWj7z4GT_bp3zLS3U=.hash
+C:\Users\joaqu\Documents\GitHub\BreadGiver-app\Client\obj\Debug\netstandard2.1\integrity\pOViuEWOnyzhhVr8IIlAIMPjG7yK7QIYRn9mhf9cEEY=.hash

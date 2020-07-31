@@ -1,0 +1,59 @@
+﻿@page "/actualizarItem/{Id:int}"
+@page "/actualizarItem"
+@inject IRepositorio repositorio;
+@inject HttpClient Http
+
+<h3 class="text-center">ActualizarItem</h3>
+
+<div class="form-row">
+    <div class="col">
+
+    </div>
+    <div class="col-md-6">
+        <EditForm Model="@producto">
+            <div class="col">
+                <p class="text-center">Producto</p>
+                <input type="hidden" @bind-value="@producto.Id" />
+                <input class="form-control" type="text" placeholder="Ingresa el producto" required @bind="@producto.NombreProducto" />
+            </div>
+            <div class="col">
+                <p class="text-center">Imagen referencial</p>
+                <input class="form-control" type="text" placeholder="Ingresa el link de la imagen" required @bind="@producto.ImagenProducto" />
+            </div>
+            <div class="col">
+                <p class="text-center">Precio por unidad</p>
+                <input class="form-control" type="text" placeholder="Ingresa el precio unitario" required @bind="@producto.PrecioProducto" />
+            </div>
+            <div class="form-group">
+                <p class="text-center">Total de productos</p>
+                <input class="form-control" type="number" placeholder="Ingresa la cantidad total" required @bind="@producto.CantidadProducto" />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Actualizar</button>
+        </EditForm>
+
+    </div>
+    <div class="col">
+
+    </div>
+</div>
+
+@code {
+        [Parameter]
+        public int Id { get; set; }
+
+    private List<Producto> todoItems;
+
+    protected override async Task OnInitializedAsync() =>
+    todoItems = await Http.GetFromJsonAsync<List<Producto>>("producto/obtenerTodos");
+
+    private Producto producto = new Producto();
+
+    private void EditarProducto(int Id)
+    {
+        producto = todoItems.Single(i => i.Id == Id);
+
+    }
+
+
+
+}
